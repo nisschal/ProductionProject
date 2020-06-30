@@ -1,0 +1,29 @@
+{
+    "name": "edunepal",
+    "version": "1.0.0",
+    "description": "MERN edunepal",
+    "main": "server.js",
+    "scripts": {
+        "test": "node server.js",
+        "start": "nodemon server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "jwt",
+        "passport",
+        "express"
+    ],
+    "author": "Arjun Araneta",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.0",
+        "body-parser": "^1.17.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "jsonwebtoken": "^7.4.2",
+        "mongodb": "^3.1.6",
+        "mongoose": "^5.2.15",
+        "nodemon": "^1.19.4",
+        "yup": "^0.29.1"
+    }
+}
